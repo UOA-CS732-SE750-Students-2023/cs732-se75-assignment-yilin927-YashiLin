@@ -9,7 +9,7 @@ Yashi Lin - Assignment - Tech Demo
 
 
 
-## ⚡ Quick setup
+# ⚡ Quick setup
 
 1. Download all the files from the [Master](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/tree/master) branch of this repo.
 2. Open your terminal and run these commands to install the necessary libraries:
@@ -22,8 +22,9 @@ If react-tilt doesn't install properly, run `npm install --save --legacy-peer-de
 
 Finally, run `npm run dev` to check the website at your localhost.
 
-## :fish: Used Tools
-### :hammer_and_wrench: Languages and Tools :
+# :hammer_and_wrench: Language and Tools
+This website was developed using React, in addition to various libraries to enhance its functionality and visual appeal.
+
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
@@ -36,13 +37,26 @@ Finally, run `npm run dev` to check the website at your localhost.
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
 
+### Web development tool:
 | Name  | Explain |
 | ------------- | ------------- |
 | [Tailwind CSS](https://tailwindcss.com/)  | Popular utility-first CSS framework  |
 | [Three.js](https://threejs.org/)  | For 3D graphics and animations  |
 | [React-tilt](https://www.npmjs.com/package/react-tilt)  | A lightweight library for creating interactive tilt effects  |
 | [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)  | Built specifically for integrating Three.js into React applications  |
-| [@react-three/drei](https://github.com/pmndrs/drei) | A collection of useful helpers that can help simplify the process of building 3D graphics and animations using the Three.js library  |
-| [Framer Motion](https://github.com/framer/motion)  | A popular open-source animation and motion library for React that allows developers to easily create smooth and fluid animations with a declarative API  |
-| [maath](https://www.skypack.dev/view/maath)  | For 3D graphics and animations  | 
+| [@react-three/drei](https://github.com/pmndrs/drei) | A collection of helpers to simplify the process of building 3D graphics and animations using the Three.js library  |
+| [Framer Motion](https://github.com/framer/motion)  | Animation and motion library for React that allows developers to easily create smooth and fluid animations with a declarative API  |
+| [Maath](https://github.com/pmndrs/maath)  | For 3D graphics and animations  | 
 | [React Router DOM](https://reactrouter.com/en/main/start/tutorial)  | Implement dynamic routing in a web app | 
+
+### Design tool:
+| Name  | Explain |
+| ------------- | ------------- |
+| [Blender](https://tailwindcss.com/)  | Edit 3D modelds and export GLTF/GLB (GL Transmission Format/GL Binary file format) for webgl   |
+| [Adobe Illustrator](https://tailwindcss.com/)  | Web design and svg files  |
+
+### 🪶 Tailwind CSS
+
+
+### 🪶 Maath
+I use the maath library (maath/random to be specific) for generating a set of random points that render stars in the background of the 3D scene!
