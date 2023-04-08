@@ -11,18 +11,17 @@ Yashi Lin - Assignment - Tech Demo
 # ⚡ Quick setup
 - Download all the files from the [Master](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/tree/master) branch of this repo to your local folder.
 - Install [Node.js](https://nodejs.org/en); install [VS Code](https://code.visualstudio.com/) (or any code-editing tool as you like)
-- Open your terminal and run these commands to install the necessary libraries: If error appears related to version problem, delete `package-lock.json` and `package.json` files, then try again.
-
+- Open your terminal and run command to install the necessary libraries
 ```
-npm install -D tailwindcss
-npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt framer-motion react-router-dom
+npm install --legacy-peer-deps
 ```
-- Finally, run `npm run dev` at your localhost.
+- Finally, launch website at your localhost.
+```
+npm run dev
+```
 
-### :anger: Debug when installing:
-If error appears related to version problem, delete `package-lock.json` and `package.json` files, then try again.
-
-If react-tilt doesn't install properly, run `npm install --save --legacy-peer-deps  react-tilt` again. 
+### :anger: Note
+It is necessary to set this flag `--legacy-peer-deps`  in order to work around mismatches between several libraries I use!
 
 
 # :hammer_and_wrench: Language & Tools
