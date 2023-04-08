@@ -25,15 +25,10 @@ Yashi Lin - Assignment - Tech Demo
 1. Download all the files from the [Master](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/tree/master) branch of this repo.
 2. Open your terminal and run these commands to install the necessary libraries:
 
-```md
-npm install -D tailwindcss
-```
-```md
-npx tailwindcss init
-```
-```md
-npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt framer-motion react-router-dom
-```
+`npm install -D tailwindcss` `npx tailwindcss init`
+
+`npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt framer-motion react-router-dom`
+
 If react-tilt doesn't install properly, run `npm install --save --legacy-peer-deps  react-tilt` again. 
 
 Finally, run `npm run dev` to check the website at your localhost.
