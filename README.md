@@ -20,10 +20,10 @@ Yashi Lin - Assignment - Tech Demo
 
 If react-tilt doesn't install properly, run `npm install --save --legacy-peer-deps  react-tilt` again. 
 
-Finally, run `npm run dev` to check the website at your localhost.
+Finally, run `npm run dev` at your localhost.
 
 # :hammer_and_wrench: Language and Tools
-This website was developed using React, in addition to various libraries to enhance its functionality and visual appeal.
+This website was built with React and several libraries for added functionality and aesthetics, including the use of WebGL for 3D objects.
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
@@ -52,8 +52,8 @@ This website was developed using React, in addition to various libraries to enha
 ### Design tool:
 | Name  | Explain |
 | ------------- | ------------- |
-| [Blender](https://tailwindcss.com/)  | Edit 3D modelds and export GLTF/GLB (GL Transmission Format/GL Binary file format) for webgl   |
-| [Adobe Illustrator](https://tailwindcss.com/)  | Web design and svg files  |
+| [Blender](https://www.blender.org/)  | Edit 3D modelds and export GLTF/GLB file (GL Transmission Format/GL Binary file format) for WebGl |
+| [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)  | Web design and svg files |
 
 ### 🪶 Tailwind CSS
 
