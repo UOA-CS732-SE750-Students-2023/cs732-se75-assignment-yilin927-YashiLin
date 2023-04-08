@@ -2,7 +2,7 @@
   <img src="https://github.com/YashiLin1/YashiLin1.github.io/blob/cs732-se75-assignment-yilin927-YashiLin/demogif.gif?raw=true"/>
 </div>
 
-## MeowShop - A cute 3D website with animation effects!
+## :smiley_cat: MeowShop - A cute website with 3D objects and animation effects!
 Check out the website at https://yashilin1.github.io/
 
 Yashi Lin - Assignment - Tech Demo
@@ -32,3 +32,17 @@ Yashi Lin - Assignment - Tech Demo
 If react-tilt doesn't install properly, run `npm install --save --legacy-peer-deps  react-tilt` again. 
 
 Finally, run `npm run dev` to check the website at your localhost.
+
+## :fish: Used Libraries
+
+
+| Libraries  | Explain |
+| ------------- | ------------- |
+| [Tailwind CSS](https://tailwindcss.com/)  | Popular utility-first CSS framework  |
+| [Three.js](https://threejs.org/)  | For 3D graphics and animations  |
+| [React-tilt](https://www.npmjs.com/package/react-tilt)  | A lightweight library for creating interactive tilt effects  |
+| [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)  | Built specifically for integrating Three.js into React applications  |
+| [@react-three/drei](https://github.com/pmndrs/drei) | A collection of useful helpers that can help simplify the process of building 3D graphics and animations using the Three.js library  |
+| [Framer Motion](https://github.com/framer/motion)  | A popular open-source animation and motion library for React that allows developers to easily create smooth and fluid animations with a declarative API  |
+| [maath](https://www.skypack.dev/view/maath)  | For 3D graphics and animations  | 
+| [React Router DOM](https://reactrouter.com/en/main/start/tutorial)  | Implement dynamic routing in a web app | 
