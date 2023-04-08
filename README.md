@@ -8,7 +8,6 @@ Check out the website at https://yashilin1.github.io/
 Yashi Lin - Assignment - Tech Demo
 
 
-
 # ⚡ Quick setup
 
 1. Download all the files from the [Master](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/tree/master) branch of this repo.
@@ -37,7 +36,7 @@ This website was built with React and several libraries for added functionality 
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
 
-### Web development tool:
+### :blue_heart: Web Development:
 | Name  | Explain |
 | ------------- | ------------- |
 | [Tailwind CSS](https://tailwindcss.com/)  | Popular utility-first CSS framework  |
@@ -49,7 +48,7 @@ This website was built with React and several libraries for added functionality 
 | [Maath](https://github.com/pmndrs/maath)  | For 3D graphics and animations  | 
 | [React Router DOM](https://reactrouter.com/en/main/start/tutorial)  | Implement dynamic routing in a web app | 
 
-### Design tool:
+### :purple_heart: Web Design:
 | Name  | Explain |
 | ------------- | ------------- |
 | [Blender](https://www.blender.org/)  | Edit 3D modelds and export GLTF/GLB file (GL Transmission Format/GL Binary file format) for WebGl |
@@ -60,3 +59,4 @@ This website was built with React and several libraries for added functionality 
 
 ### 🪶 Maath
 I use the maath library (maath/random to be specific) for generating a set of random points that render stars in the background of the 3D scene!
+
