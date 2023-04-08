@@ -9,9 +9,10 @@ Yashi Lin - Assignment - Tech Demo
 
 
 # ⚡ Quick setup
-
 1. Download all the files from the [Master](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/tree/master) branch of this repo.
-2. Open your terminal and run these commands to install the necessary libraries:
+2. Install [Node.js](https://nodejs.org/en)
+3. Install [VS Code](https://code.visualstudio.com/) (or any code-editing tool as you like)
+3. Open your terminal and run these commands to install the necessary libraries:
 
 `npm install -D tailwindcss` `npx tailwindcss init`
 
