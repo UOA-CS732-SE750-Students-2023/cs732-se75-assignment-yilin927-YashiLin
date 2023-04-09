@@ -75,7 +75,10 @@ I use various properties from Framer Motion to make this site a smooth browsing 
 ### :deciduous_tree: ThreeJS - 3D Graphics & Animations
 <span><img src="https://raw.githubusercontent.com/YashiLin1/YashiLin1.github.io/cs732-se75-assignment-yilin927-YashiLin/donut.gif" width="150"/></span> 
 
-My website uses ThreeJS and its related libraries for all the 3D stuff. Taking this donut for example! See [Donut.jsx file](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/blob/master/src/components/canvas/Donut.jsx).
+My website uses ThreeJS and its related libraries for all the 3D stuff. It’s a powerful library that enables you to create and display 3D graphics in a web browser using WebGL. You can create a variety of objects in Three.js, including meshes, lights, and cameras. Once you've created your scene and added objects to it, you'll need to render it to display it in the browser. Three.js provides a renderer object that you can use to render your scene. You'll need to create a loop that updates and renders your scene each frame. Check my [Donut.jsx file](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/blob/master/src/components/canvas/Donut.jsx) file for example:
+
+My code uses `useFrame` hook from `@react-three/fiber` library to create a loop that updates and renders the scene each frame. In the `Donut` component, `useFrame` hook updates the rotation of the donut model based on the elapsed time, and in the `DonutCanvas` component, the `Canvas` component from `@react-three/fiber` is set up with the `frameloop` prop set to "demand", which creates a loop that updates and renders the scene each frame when needed.
+
 
 ### React-three-fiber <sub>(ThreeJS related library)</sub>
 Add light and camera so that they work together to illuminate the donut.
