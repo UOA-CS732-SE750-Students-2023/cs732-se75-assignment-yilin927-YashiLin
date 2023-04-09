@@ -10,7 +10,7 @@ This is a "Tech Demo" assignment by Yashi Lin.
 **&nbsp;**
 
 # ⚡ Quick setup
-- Download all the files from the [Master branch](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/tree/master)  of this repo to your local folder.
+- Download all the files from this branch to your local folder.
 - Install [Node.js](https://nodejs.org/en); install [VS Code](https://code.visualstudio.com/) (or any code-editing tool as you like)
 - Open your terminal and run command to install the necessary libraries
 ```
