@@ -54,7 +54,7 @@ This website was built with React and several libraries for added functionality 
 ### :purple_heart: Web Design:
 | Tools  | Explain |
 | ------------- | ------------- |
-| [Blender](https://www.blender.org/)  | Edit 3D modelds and export GLTF/GLB file (GL Transmission Format/GL Binary file format) for WebGl |
+| [Blender](https://www.blender.org/)  | Edit 3D models and export GLTF/GLB file (GL Transmission Format/GL Binary file format) for WebGl |
 | [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)  | Web design and svg files |
 
 
@@ -62,6 +62,9 @@ This website was built with React and several libraries for added functionality 
 
 ### :smiley: Tailwind CSS
 It provides me with a set of pre-built UI components and responsive utility classes to build the site quickly without writing custom CSS. 
+
+### :smiley: Framer Motion
+I use `variants` prop from Framer Motion for all the fade in animation. They provides many built-in animations!
 
 ### :deciduous_tree: ThreeJS - 3D Graphics & Animations
 <span style="float: left;"><img src="https://raw.githubusercontent.com/YashiLin1/YashiLin1.github.io/cs732-se75-assignment-yilin927-YashiLin/donut.gif" width="150"/></span> My website uses ThreeJS and its related libraries for all the 3D stuff. Taking this donut for example! See [jsx file](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/blob/master/src/components/canvas/Donut.jsx).
@@ -78,7 +81,7 @@ It provides me with a set of pre-built UI components and responsive utility clas
 ### React-tilt
 This package use older version of React, but it has cool animation features. Therefore when installing packages, you need to add `--legacy-peer-deps` flag just for it.
 
-<span style="float: left;"><img src="https://raw.githubusercontent.com/YashiLin1/YashiLin1.github.io/cs732-se75-assignment-yilin927-YashiLin/donut.gif" width="150"/></span> 
+<span style="float: left;"><img src="https://github.com/YashiLin1/YashiLin1.github.io/blob/cs732-se75-assignment-yilin927-YashiLin/card.gif?raw=true" width="150"/></span> 
 - `Tilt` create a 3D tilt effect on the card!
 
 
