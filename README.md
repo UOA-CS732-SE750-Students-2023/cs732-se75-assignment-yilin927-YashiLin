@@ -89,6 +89,7 @@ I used this library to add light and camera so that they work together to illumi
 -  The `hemisphereLight` component is used to create a light that is positioned directly above the scene and shines down from all directions. 
 -  The `spotLight` component is used to create a focused light that shines in a specific direction and casts a shadow. 
 -  The `pointLight` component is used to create a point light that illuminates the scene evenly in all directions.
+
 This is what the 3D donut looks like with no light, only hemisphere light and full lights on it.
 <span><img src="https://github.com/YashiLin1/YashiLin1.github.io/blob/cs732-se75-assignment-yilin927-YashiLin/donut3.gif?raw=true"/></span> 
 
