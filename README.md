@@ -96,7 +96,7 @@ This is what the 3D donut looks like with no light, only hemisphere light and fu
 ### :strawberry: React-three/drei <sub>(ThreeJS related library)</sub>
 - `useGLTF` hook allows loading 3D models in the glTF format, and accessing them as Three.js objects. It allows you to load this donut!
 - `OrbitControls` component provides camera controls for the donut, allowing you to orbit this donut using the mouse!
-- `Preload` show a fallback UI while the donut are being loaded, which can help to avoid rendering delays during the loading process and improve performance!
+- `Preload` shows a fallback UI while the donut is being loaded, which can help to avoid rendering delays during the loading process and improve performance!
 - `Points` and `PointMaterial` in [Stars.jsx file](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/blob/master/src/components/canvas/Stars.jsx) are used to create a set of points that represent stars in the background. The background of my website is a 3D scene!
 ### :candy: React-tilt
 This package use older version of React, but it has cool animation features. Therefore when installing packages, you need to add `--legacy-peer-deps` flag just for it.
