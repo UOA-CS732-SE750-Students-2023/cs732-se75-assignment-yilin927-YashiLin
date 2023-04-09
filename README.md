@@ -73,17 +73,21 @@ I use various properties from Framer Motion to make this site a smooth browsing 
 
 ### :deciduous_tree: ThreeJS - 3D Graphics & Animations
 <span><img src="https://raw.githubusercontent.com/YashiLin1/YashiLin1.github.io/cs732-se75-assignment-yilin927-YashiLin/donut.gif" width="150"/></span> 
-My website uses ThreeJS and its related libraries for all the 3D stuff. Taking this donut for example! See [jsx file](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/blob/master/src/components/canvas/Donut.jsx).
+
+My website uses ThreeJS and its related libraries for all the 3D stuff. Taking this donut for example! See [Donut.jsx file](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/blob/master/src/components/canvas/Donut.jsx).
 
 ### React-three-fiber <sub>(ThreeJS related library)</sub>
-- Its `Canvas` and `useFrame` components produce the 3D canvas and handle rendering. 
-- Add light and camera so that they work together to illuminate the donut. The `hemisphereLight` component is used to create a light that is positioned directly above the scene and shines down from all directions. The `spotLight` component is used to create a focused light that shines in a specific direction and casts a shadow. The `pointLight` component is used to create a point light that illuminates the scene evenly in all directions.
+Add light and camera so that they work together to illuminate the donut.
+- Use `Canvas` and `useFrame` components to produce the 3D canvas and handle rendering. 
+-  The `hemisphereLight` component is used to create a light that is positioned directly above the scene and shines down from all directions. 
+-  The `spotLight` component is used to create a focused light that shines in a specific direction and casts a shadow. 
+-  The `pointLight` component is used to create a point light that illuminates the scene evenly in all directions.
 
 ### React-three/drei <sub>(ThreeJS related library)</sub>
 - `useGLTF` hook allows loading 3D models in the glTF format, and accessing them as Three.js objects. It allows you to load this donut!
-- `OrbitControls` component provides camera controls for Three.js scenes, allowing you to orbit this donut using the mouse!
+- `OrbitControls` component provides camera controls for the donut, allowing you to orbit this donut using the mouse!
 - `Preload` show a fallback UI while the donut are being loaded, which can help to avoid rendering delays during the loading process and improve performance!
-
+- `Points` and `PointMaterial` in [Stars.jsx file](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/blob/master/src/components/canvas/Stars.jsx) are used to create a set of points that represent stars in the background. The background of my website is a 3D scene!
 ### :candy: React-tilt
 This package use older version of React, but it has cool animation features. Therefore when installing packages, you need to add `--legacy-peer-deps` flag just for it.
 
@@ -92,5 +96,5 @@ This package use older version of React, but it has cool animation features. The
 
 
 ### :sparkles: Maath
-I use the maath library (maath/random to be specific) for generating a set of random points as stars in the background. The background of my website is a 3D scene!
+I use the maath library (maath/random to be specific) for generating a set of random points as stars in the background. 
 
