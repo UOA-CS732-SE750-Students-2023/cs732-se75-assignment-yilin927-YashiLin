@@ -21,7 +21,7 @@ npm install --legacy-peer-deps
 npm run dev
 ```
 ### :warning: Note
-It is necessary to set this flag `--legacy-peer-deps` in order to work around mismatches between several libraries I use! If ERROR appears then run `npm install` first and then run `--legacy-peer-deps` again.
+It is necessary to set this flag `--legacy-peer-deps` in order to work around mismatches between several libraries I use! If ERROR appears then run `npm install` first and then run `npm install --legacy-peer-deps` again.
 
 &nbsp;
 
