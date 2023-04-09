@@ -20,8 +20,8 @@ npm install --legacy-peer-deps
 npm run dev
 ```
 
-### :anger: Note
-It is necessary to set this flag `--legacy-peer-deps`  in order to work around mismatches between several libraries I use!
+### :warning: Note
+It is necessary to set this flag `--legacy-peer-deps`  in order to work around mismatches between several libraries I use! See [details](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/edit/main/README.md#react-tilt).
 
 
 # :hammer_and_wrench: Language & Tools
@@ -40,7 +40,7 @@ This website was built with React and several libraries for added functionality 
 </div>
 
 ### :blue_heart: Web Development:
-| Name  | Explain |
+| Tools  | Explain |
 | ------------- | ------------- |
 | [Tailwind CSS](https://tailwindcss.com/)  | Popular utility-first CSS framework  |
 | [ThreeJS](https://threejs.org/)  | An essential tool for any web development project that involves 3D graphics or animations.  |
@@ -52,12 +52,13 @@ This website was built with React and several libraries for added functionality 
 | [React Router DOM](https://reactrouter.com/en/main/start/tutorial)  | Implement dynamic routing in a web app. | 
 
 ### :purple_heart: Web Design:
-| Name  | Explain |
+| Tools  | Explain |
 | ------------- | ------------- |
 | [Blender](https://www.blender.org/)  | Edit 3D modelds and export GLTF/GLB file (GL Transmission Format/GL Binary file format) for WebGl |
 | [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)  | Web design and svg files |
 
-# :hammer_and_wrench: Libraries usage explain
+
+# :hammer_and_wrench: JS Libraries
 
 ### :smiley: Tailwind CSS
 It provides me with a set of pre-built UI components and responsive utility classes to build the site quickly without writing custom CSS. 
@@ -71,10 +72,15 @@ It provides me with a set of pre-built UI components and responsive utility clas
 
 ### React-three/drei
 - `useGLTF` hook allows loading 3D models in the glTF format, and accessing them as Three.js objects. It allows you to load this donut!
-
 - `OrbitControls` component provides camera controls for Three.js scenes, allowing you to orbit this donut using the mouse!
-
 - `Preload` show a fallback UI while the donut are being loaded, which can help to avoid rendering delays during the loading process and improve performance!
+
+### React-tilt
+This package use older version of React, but it has cool animation features. Therefore when installing packages, you need to add `--legacy-peer-deps` flag just for it.
+
+<span style="float: left;"><img src="https://raw.githubusercontent.com/YashiLin1/YashiLin1.github.io/cs732-se75-assignment-yilin927-YashiLin/donut.gif" width="150"/></span> 
+- `Tilt` create a 3D tilt effect on the card!
+
 
 ### :sparkles: Maath
 I use the maath library (maath/random to be specific) for generating a set of random points as stars in the background. The background of my website is a 3D scene!
