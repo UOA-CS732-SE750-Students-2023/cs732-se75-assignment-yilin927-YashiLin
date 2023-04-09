@@ -3,7 +3,7 @@
   <img src="https://github.com/YashiLin1/YashiLin1.github.io/blob/cs732-se75-assignment-yilin927-YashiLin/demogif.gif?raw=true"/>
 </div>
 
-# :smiley_cat:  MeowShop - A cute website with 3D objects and animation!
+## :smiley_cat:  MeowShop - A cute website with 3D objects and animation!
 Check out the website at https://yashilin1.github.io/
 This is a "Tech Demo" assignment by Yashi Lin.
 
