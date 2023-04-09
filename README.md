@@ -51,6 +51,7 @@ This website was built with React and several libraries for added functionality 
 | [Framer Motion](https://github.com/framer/motion)  | Animation and motion library for React that allows developers to easily create smooth and fluid animations with a declarative API.  |
 | [Maath](https://github.com/pmndrs/maath)  | A collection of useful math helpers, random generators, bits and bobs.  | 
 | [React Router DOM](https://reactrouter.com/en/main/start/tutorial)  | Implement dynamic routing in a web app. | 
+| [WebGL](https://en.wikipedia.org/wiki/WebGL)  | A JavaScript API for rendering interactive 2D and 3D graphics within any compatible web browser without the use of plug-ins. | 
 
 ### :purple_heart: Web Design:
 | Tools  | Notes |
