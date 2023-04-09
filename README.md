@@ -19,9 +19,9 @@ npm install --legacy-peer-deps
 ```
 npm run dev
 ```
-
 ### :warning: Note
 It is necessary to set this flag `--legacy-peer-deps`  in order to work around mismatches between several libraries I use! See [details](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/edit/main/README.md#react-tilt).
+
 
 
 # :hammer_and_wrench: Language & Tools
@@ -58,31 +58,36 @@ This website was built with React and several libraries for added functionality 
 | [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)  | Web design and svg files |
 
 
+
 # :hammer_and_wrench: JS Libraries
 
-### :smiley: Tailwind CSS
+### :leaves: Tailwind CSS
 It provides me with a set of pre-built UI components and responsive utility classes to build the site quickly without writing custom CSS. 
 
-### :smiley: Framer Motion
-I use `variants` prop from Framer Motion for all the fade in animation. They provides many built-in animations!
+### :cat: Framer Motion
+I use various properties from Framer Motion to make this site a smooth browsing experience.
+- `motion` is the object I mainly use in my website, it create motion-enabled versions of standard HTML elements so that it creates a div element that can be animated using the animate and transition properties from the library.
+- `variants` property is used to define a set of animation states for a container element.
+- `staggerContainer` function returns an object containing animation variants.
+- `whileInView` is set to 'show', which means the element will be animated when it comes into view.
 
 ### :deciduous_tree: ThreeJS - 3D Graphics & Animations
 <span style="float: left;"><img src="https://raw.githubusercontent.com/YashiLin1/YashiLin1.github.io/cs732-se75-assignment-yilin927-YashiLin/donut.gif" width="150"/></span> My website uses ThreeJS and its related libraries for all the 3D stuff. Taking this donut for example! See [jsx file](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/blob/master/src/components/canvas/Donut.jsx).
 
-### React-three-fiber
+### React-three-fiber <sub>(ThreeJS related library)</sub>
 - Its `Canvas` and `useFrame` components produce the 3D canvas and handle rendering. 
 - Add light and camera so that they work together to illuminate the donut. The `hemisphereLight` component is used to create a light that is positioned directly above the scene and shines down from all directions. The `spotLight` component is used to create a focused light that shines in a specific direction and casts a shadow. The `pointLight` component is used to create a point light that illuminates the scene evenly in all directions.
 
-### React-three/drei
+### React-three/drei <sub>(ThreeJS related library)</sub>
 - `useGLTF` hook allows loading 3D models in the glTF format, and accessing them as Three.js objects. It allows you to load this donut!
 - `OrbitControls` component provides camera controls for Three.js scenes, allowing you to orbit this donut using the mouse!
 - `Preload` show a fallback UI while the donut are being loaded, which can help to avoid rendering delays during the loading process and improve performance!
 
-### React-tilt
+### :candy: React-tilt
 This package use older version of React, but it has cool animation features. Therefore when installing packages, you need to add `--legacy-peer-deps` flag just for it.
 
 <span style="float: left;"><img src="https://github.com/YashiLin1/YashiLin1.github.io/blob/cs732-se75-assignment-yilin927-YashiLin/card.gif?raw=true" width="150"/></span> 
-- `Tilt` create a 3D tilt effect on the card!
+- `Tilt` is used to customize the 3D tilt effect on the card!
 
 
 ### :sparkles: Maath
