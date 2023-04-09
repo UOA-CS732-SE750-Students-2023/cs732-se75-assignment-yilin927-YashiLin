@@ -10,8 +10,8 @@ This is a "Tech Demo" assignment by Yashi Lin.
 **&nbsp;**
 
 # ⚡ Quick setup
-- Download all the files from this branch to your local folder.
 - Install [Node.js](https://nodejs.org/en); install [VS Code](https://code.visualstudio.com/) (or any code-editing tool as you like)
+- Download all the files from this branch to your local folder.
 - Open your terminal and run command to install the necessary libraries
 ```
 npm install --legacy-peer-deps
