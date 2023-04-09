@@ -73,7 +73,7 @@ I use various properties from Framer Motion to make this site a smooth browsing 
 - `staggerContainer` function returns an object containing animation variants.
 - `whileInView` is set to 'show', which means the element will be animated when it comes into view.
 
-### :deciduous_tree: ThreeJS - 3D Graphics & Animations
+### :lollipop: ThreeJS - 3D Graphics & Animations
 <span><img src="https://raw.githubusercontent.com/YashiLin1/YashiLin1.github.io/cs732-se75-assignment-yilin927-YashiLin/donut.gif" width="150"/></span> 
 
 My website uses ThreeJS and its related libraries to create and display 3D graphics in a web browser using WebGL. With Three.js, you can make various objects, such as meshes, lights, and cameras, and render them to display in the browser. Check my [Donut.jsx file](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/blob/master/src/components/canvas/Donut.jsx) file for example:
@@ -83,14 +83,14 @@ My website uses ThreeJS and its related libraries to create and display 3D graph
 - In the `DonutCanvas` component, the `Canvas` component from `@react-three/fiber` is set up with the `frameloop` prop set to "demand", which creates a loop that updates and renders the scene each frame when needed.
 
 
-### React-three-fiber <sub>(ThreeJS related library)</sub>
+### :deciduous_tree: React-three-fiber <sub>(ThreeJS related library)</sub>
 Add light and camera so that they work together to illuminate the donut.
 - Use `Canvas` and `useFrame` components to produce the 3D canvas and handle rendering. 
 -  The `hemisphereLight` component is used to create a light that is positioned directly above the scene and shines down from all directions. 
 -  The `spotLight` component is used to create a focused light that shines in a specific direction and casts a shadow. 
 -  The `pointLight` component is used to create a point light that illuminates the scene evenly in all directions.
 
-### React-three/drei <sub>(ThreeJS related library)</sub>
+### :strawberry: React-three/drei <sub>(ThreeJS related library)</sub>
 - `useGLTF` hook allows loading 3D models in the glTF format, and accessing them as Three.js objects. It allows you to load this donut!
 - `OrbitControls` component provides camera controls for the donut, allowing you to orbit this donut using the mouse!
 - `Preload` show a fallback UI while the donut are being loaded, which can help to avoid rendering delays during the loading process and improve performance!
