@@ -1,15 +1,16 @@
+
 <div id="header" align="center">
   <img src="https://github.com/YashiLin1/YashiLin1.github.io/blob/cs732-se75-assignment-yilin927-YashiLin/demogif.gif?raw=true"/>
 </div>
 
-## :smiley_cat: MeowShop - A cute website with 3D objects and animation effects!
+# :smiley_cat:  MeowShop - A cute website with 3D objects and animation!
 Check out the website at https://yashilin1.github.io/
+This is a "Tech Demo" assignment by Yashi Lin.
 
-Yashi Lin - Assignment - Tech Demo
-
+**&nbsp;**
 
 # ⚡ Quick setup
-- Download all the files from the [Master](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/tree/master) branch of this repo to your local folder.
+- Download all the files from the [Master branch](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/tree/master)  of this repo to your local folder.
 - Install [Node.js](https://nodejs.org/en); install [VS Code](https://code.visualstudio.com/) (or any code-editing tool as you like)
 - Open your terminal and run command to install the necessary libraries
 ```
@@ -22,6 +23,7 @@ npm run dev
 ### :warning: Note
 It is necessary to set this flag `--legacy-peer-deps`  in order to work around mismatches between several libraries I use! 
 
+&nbsp;
 
 # :hammer_and_wrench: Language & Tools
 This website was built with React and several libraries for added functionality and aesthetics, including the use of WebGL for 3D objects.
@@ -39,7 +41,7 @@ This website was built with React and several libraries for added functionality 
 </div>
 
 ### :blue_heart: Web Development:
-| Tools  | Explain |
+| Tools  | Notes |
 | ------------- | ------------- |
 | [Tailwind CSS](https://tailwindcss.com/)  | Popular utility-first CSS framework  |
 | [ThreeJS](https://threejs.org/)  | An essential tool for any web development project that involves 3D graphics or animations.  |
@@ -47,17 +49,17 @@ This website was built with React and several libraries for added functionality 
 | [React-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)  | A React renderer for Three.js. Built specifically for integrating Three.js into React applications.  |
 | [React-three/drei](https://github.com/pmndrs/drei) | A collection of helpers to simplify the process of building 3D graphics and animations using the Three.js library  |
 | [Framer Motion](https://github.com/framer/motion)  | Animation and motion library for React that allows developers to easily create smooth and fluid animations with a declarative API.  |
-| [Maath](https://github.com/pmndrs/maath)  | For 3D graphics and animations.  | 
+| [Maath](https://github.com/pmndrs/maath)  | A collection of useful math helpers, random generators, bits and bobs.  | 
 | [React Router DOM](https://reactrouter.com/en/main/start/tutorial)  | Implement dynamic routing in a web app. | 
 
 ### :purple_heart: Web Design:
-| Tools  | Explain |
+| Tools  | Notes |
 | ------------- | ------------- |
 | [Blender](https://www.blender.org/)  | Edit 3D models and export GLTF/GLB file (GL Transmission Format/GL Binary file format) for WebGl |
 | [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)  | Web design and svg files |
 
 
-
+&nbsp;
 # :hammer_and_wrench: JS Libraries
 
 ### :leaves: Tailwind CSS
