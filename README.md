@@ -72,7 +72,8 @@ I use various properties from Framer Motion to make this site a smooth browsing 
 - `whileInView` is set to 'show', which means the element will be animated when it comes into view.
 
 ### :deciduous_tree: ThreeJS - 3D Graphics & Animations
-<span style="float: left;"><img src="https://raw.githubusercontent.com/YashiLin1/YashiLin1.github.io/cs732-se75-assignment-yilin927-YashiLin/donut.gif" width="150"/></span> My website uses ThreeJS and its related libraries for all the 3D stuff. Taking this donut for example! See [jsx file](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/blob/master/src/components/canvas/Donut.jsx).
+<span><img src="https://raw.githubusercontent.com/YashiLin1/YashiLin1.github.io/cs732-se75-assignment-yilin927-YashiLin/donut.gif" width="150"/></span> 
+My website uses ThreeJS and its related libraries for all the 3D stuff. Taking this donut for example! See [jsx file](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/blob/master/src/components/canvas/Donut.jsx).
 
 ### React-three-fiber <sub>(ThreeJS related library)</sub>
 - Its `Canvas` and `useFrame` components produce the 3D canvas and handle rendering. 
@@ -86,7 +87,7 @@ I use various properties from Framer Motion to make this site a smooth browsing 
 ### :candy: React-tilt
 This package use older version of React, but it has cool animation features. Therefore when installing packages, you need to add `--legacy-peer-deps` flag just for it.
 
-<span style="float: left;"><img src="https://github.com/YashiLin1/YashiLin1.github.io/blob/cs732-se75-assignment-yilin927-YashiLin/card.gif?raw=true" width="150"/></span> 
+<span><img src="https://github.com/YashiLin1/YashiLin1.github.io/blob/cs732-se75-assignment-yilin927-YashiLin/card.gif?raw=true" width="150"/></span> 
 - `Tilt` is used to customize the 3D tilt effect on the card!
 
 
