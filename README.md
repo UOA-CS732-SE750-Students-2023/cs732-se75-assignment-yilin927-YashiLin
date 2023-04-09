@@ -20,8 +20,7 @@ npm install --legacy-peer-deps
 npm run dev
 ```
 ### :warning: Note
-It is necessary to set this flag `--legacy-peer-deps`  in order to work around mismatches between several libraries I use! See [details](https://github.com/UOA-CS732-SE750-Students-2023/cs732-se75-assignment-yilin927-YashiLin/edit/main/README.md#react-tilt).
-
+It is necessary to set this flag `--legacy-peer-deps`  in order to work around mismatches between several libraries I use! 
 
 
 # :hammer_and_wrench: Language & Tools
