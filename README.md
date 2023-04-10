@@ -9,6 +9,10 @@ This is a "Tech Demo" assignment by Yashi Lin.
 
 **&nbsp;**
 
+## :tv:  Video Presentation
+https://drive.google.com/file/d/1-6AaMld0itpAlYFgWuuHleLZUNLqOuHb/view?usp=share_link
+
+
 # ⚡ Quick setup
 - Install [Node.js](https://nodejs.org/en); install [VS Code](https://code.visualstudio.com/) (or any code-editing tool as you like)
 - Download all the files from this branch to your local folder.
