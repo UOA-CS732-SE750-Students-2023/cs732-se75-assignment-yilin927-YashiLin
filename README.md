@@ -11,7 +11,6 @@ This is a "Tech Demo" assignment by Yashi Lin.
 
 ## :tv:  Video Presentation
 https://drive.google.com/file/d/1-6AaMld0itpAlYFgWuuHleLZUNLqOuHb/view?usp=share_link
-<iframe src="https://drive.google.com/file/d/1-6AaMld0itpAlYFgWuuHleLZUNLqOuHb/preview" width="640" height="480" allow="autoplay"></iframe>
 
 # ⚡ Quick setup
 - Install [Node.js](https://nodejs.org/en); install [VS Code](https://code.visualstudio.com/) (or any code-editing tool as you like)
